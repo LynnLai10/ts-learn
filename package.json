@@ -1,0 +1,25 @@
+{
+  "name": "ts-learn",
+  "version": "1.0.0",
+  "description": "test driver learn typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LynnLai10/ts-learn.git"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "Lynn Lai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LynnLai10/ts-learn/issues"
+  },
+  "homepage": "https://github.com/LynnLai10/ts-learn#readme",
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
