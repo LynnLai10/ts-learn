@@ -21,4 +21,7 @@ type TupleToIndex<T extends readonly any[]> = {
 type r = TupleToIndex<typeof tuple>
 
 // 1. keyof array => index
-// 2. P in T[number] => 遍历数组
+// 2. P in T[number] => 遍历数组 union
+
+type numberArray = ['a', 1, 2];
+type n = numberArray[number]; //'a' | 1 | 2
