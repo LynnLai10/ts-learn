@@ -14,4 +14,4 @@ type cases = [
 type error = TupleToObject<[[1, 2], {}]>
 
 // 1. typeof js => ts type
-// 2. 字面量类型 as const => readonly
+// 2. 字面量类型 as const => readonly tuple 否则 可能是 string[]
